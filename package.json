@@ -1,0 +1,43 @@
+{
+  "name": "simple-seo-scraper",
+  "description": "This is a quick node app built to try some stuff out! It is a web crawler built with node and returns the meta data for every page of the site in a csv.",
+  "version": "1.0.0",
+  "keywords": [
+    "Node",
+    "Web Scraper"
+  ],
+  "main": "scraper.js",
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "csv-write-stream": "^2.0.0",
+    "seenreq": "^0.1.11",
+    "simplecrawler": "^1.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Adam Lazarus",
+  "maintainers": [
+    {
+      "name": "Adam Lazarus",
+      "email": "adam@buoy.ventures",
+      "web": "https://buoy.ventures"
+    }
+  ],
+  "bugs": {
+    "web": "https://github.com/adamlaz/Simple-SEO-Scraper/issues"
+  },
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/adamlaz/Simple-SEO-Scraper.git"
+    }
+  ],
+  "licenses": [
+    {
+      "name": "MIT",
+      "url": "https://github.com/adamlaz/Simple-SEO-Scraper/blob/master/LICENSE"
+    }
+  ]
+}
